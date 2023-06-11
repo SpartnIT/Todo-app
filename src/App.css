@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.addTask{
+  height:27vh;
+  background-color: #00abae;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.task{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+  margin-top: 1vw;
+  align-items: center;
+}
+
+.task h1{
+  color: #00abae;
+  font-size: 2.2vw;
+  font-weight: bolder;
+
+}
+
+#listp{
+  color: #00abae;
+  font-size: 2.5vw;
+  font-weight: bolder;
+  margin-top: 1%;
+}
+
+#ptodo{
+  position: absolute;
+  top: 3vw;
+  font-weight: bolder;
+  color: white;
+  font-size: 2vw;
+}
+
+input{
+  margin-top: 2vw;
+  width: 34vw;
+  font-size: 1.5vw;
+  padding: 1.5vw;
+  border: none;
+  border-radius: 8px;
+}
+
+#buttonadd{
+  margin-top: 2vw;
+  width: 10vw;
+  margin-left: 1vw;
+  color: black;
+  padding: 1.5vw;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(228, 225, 225);
+}
+
+.task button{
+  color: #00abae;
+  margin: 1vw;
+  font-size: 1.5vw;
+  padding: 0.5vw;
+  width: 10vw;
+  border: 0;
+  background-color: transparent;
+}
+
+.buttons{
+  display:flex;
+}
